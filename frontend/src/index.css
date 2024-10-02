@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Condensed Variants */
+@font-face {
+  font-family: 'Fredoka Condensed';
+  src: url('./assets/fonts/Fredoka_Condensed-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Fredoka Condensed';
+  src: url('./assets/fonts/Fredoka_Condensed-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Fredoka Condensed';
+  src: url('./assets/fonts/Fredoka_Condensed-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Fredoka Condensed';
+  src: url('./assets/fonts/Fredoka_Condensed-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Fredoka Condensed';
+  src: url('./assets/fonts/Fredoka_Condensed-SemiBold.ttf');
+  font-weight: 600;
+}
+
+/* Expanded Variants */
+@font-face {
+  font-family: 'Fredoka Expanded';
+  src: url('./assets/fonts/Fredoka_Expanded-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Fredoka Expanded';
+  src: url('./assets/fonts/Fredoka_Expanded-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Fredoka Expanded';
+  src: url('./assets/fonts/Fredoka_Expanded-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Fredoka Expanded';
+  src: url('./assets/fonts/Fredoka_Expanded-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Fredoka Expanded';
+  src: url('./assets/fonts/Fredoka_Expanded-SemiBold.ttf');
+  font-weight: 600;
+}
+
+/* SemiCondensed Variants */
+@font-face {
+  font-family: 'Fredoka SemiCondensed';
+  src: url('./assets/fonts/Fredoka_SemiCondensed-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Fredoka SemiCondensed';
+  src: url('./assets/fonts/Fredoka_SemiCondensed-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Fredoka SemiCondensed';
+  src: url('./assets/fonts/Fredoka_SemiCondensed-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Fredoka SemiCondensed';
+  src: url('./assets/fonts/Fredoka_SemiCondensed-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Fredoka SemiCondensed';
+  src: url('./assets/fonts/Fredoka_SemiCondensed-SemiBold.ttf');
+  font-weight: 600;
+}
+
+/* SemiExpanded Variants */
+@font-face {
+  font-family: 'Fredoka SemiExpanded';
+  src: url('./assets/fonts/Fredoka_SemiExpanded-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Fredoka SemiExpanded';
+  src: url('./assets/fonts/Fredoka_SemiExpanded-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Fredoka SemiExpanded';
+  src: url('./assets/fonts/Fredoka_SemiExpanded-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Fredoka SemiExpanded';
+  src: url('./assets/fonts/Fredoka_SemiExpanded-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Fredoka SemiExpanded';
+  src: url('./assets/fonts/Fredoka_SemiExpanded-SemiBold.ttf');
+  font-weight: 600;
+}
+
+/* Standard Fredoka Variants */
+@font-face {
+  font-family: 'Fredoka';
+  src: url('./assets/fonts/Fredoka-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Fredoka';
+  src: url('./assets/fonts/Fredoka-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Fredoka';
+  src: url('./assets/fonts/Fredoka-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Fredoka';
+  src: url('./assets/fonts/Fredoka-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Fredoka';
+  src: url('./assets/fonts/Fredoka-SemiBold.ttf');
+  font-weight: 600;
+}
+
+* {
+  font-family: 'Fredoka', sans-serif;
+}
