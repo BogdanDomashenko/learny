@@ -9,7 +9,11 @@ export interface ReviewCardProps {
 export const ReviewCard: FC<ReviewCardProps> = ({ imgSrc, text }) => {
   return (
     <Card className='text-center'>
-      <img src={imgSrc} alt='Customer 1' className='mx-auto h-20 w-20 rounded-full object-cover' />
+      <img
+        src={imgSrc}
+        alt='Customer 1'
+        className='mx-auto mb-2 h-20 w-20 rounded-full object-cover'
+      />
       <Typography.Text className='text-slate-500'>{text}</Typography.Text>
     </Card>
   );

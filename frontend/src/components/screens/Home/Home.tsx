@@ -3,6 +3,8 @@ import { Header } from './Header';
 import { HowItWorks } from './HowItWorks';
 import { KeyFeatures } from './KeyFeatures';
 import { Reviews } from './Reviews';
+import { StartLearningToday } from './StartLearningToday';
+import { Footer } from './Footer';
 
 export const Home: FC = () => {
   return (
@@ -11,6 +13,8 @@ export const Home: FC = () => {
       <HowItWorks />
       <KeyFeatures />
       <Reviews />
+      <StartLearningToday />
+      <Footer />
     </div>
   );
 };
